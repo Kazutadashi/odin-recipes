@@ -1,9 +1,28 @@
+body {
+    background-color: gray;
+}
+
 .best-link {
     font-size: 30px;
     text-align: center;
 }
 
-.header {
+h1 {
     background-color: blue;
     color: yellow;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px black;
+    padding: 5px;
+
+}
+
+.image.water {
+    width: 300px;
+    height: 400px;
 }
